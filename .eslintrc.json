@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "standard"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "indent": "off",
+    "no-undef": "off",
+    "semi": "warn",
+    "multiline-ternary": "off",
+    "space-before-function-paren": "off",
+    "no-trailing-spaces": "warn",
+    "default-param-last": "off",
+    "no-unused-vars": "warn",
+    "react/prop-types": "warn"
+  }
+}

@@ -1,0 +1,29 @@
+#login-form {
+  margin: 0%;
+  form {
+    min-width: 260px;
+    margin-top: 100px;
+    padding: 0;
+    h3 {
+      color: $darkGray;
+      @include text-regular;
+    }
+    .p-inputtext {
+      padding-top: 4px;
+      padding-bottom: 4px;
+      font-size: 0.9rem;
+      color: $darkGray;
+    }
+    .p-inputtext-border {
+      border-color: $darkBlue;
+    }
+    .p-button {
+      float: right;
+      border: none;
+      padding-top: 3px;
+      padding-bottom: 4px;
+      font-size: 0.9rem;
+      @include setInnerBorder($darkGray);
+    }
+  }
+}

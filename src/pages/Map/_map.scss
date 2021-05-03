@@ -1,0 +1,17 @@
+#google-map {
+  .gm-style-iw {
+    padding: 10px;
+  }
+
+  .marker-title {
+    color: $darkGray;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 5px;
+  }
+
+  .marker-image {
+    height: 80px;
+    border-radius: 3px;
+  }
+}

@@ -1,0 +1,32 @@
+#topbar-menubar {
+  padding: 0;
+  border: none;
+  background-color: $backgroundWhite;
+  .p-megamenu-root-list {
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    .p-menuitem-icon {
+      font-size: 0.9rem;
+    }
+    .p-menuitem-link {
+      box-shadow: none;
+    }
+    .p-menuitem:last-of-type {
+      .p-menuitem-link[aria-haspopup='true'] {
+        justify-content: flex-end;
+        .p-menuitem-text {
+          font-weight: 600;
+          color: $darkGray;
+        }
+      }
+    }
+    // Dropdown settings
+    .p-megamenu-panel {
+      z-index: 2;
+      right: 0;
+      .p-megamenu-submenu {
+        width: 130px;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+#toolbar {
+  .toolbar-searchbar {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    padding-right: 8px;
+    border-bottom: 1px solid $lightBlue;
+  }
+
+  .toolbar-dropdown-panel {
+    .p-panel-header {
+      display: none;
+    }
+  }
+}

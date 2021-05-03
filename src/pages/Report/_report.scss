@@ -1,0 +1,28 @@
+// .company-info-panel
+
+.company-info-panel,
+.company-managers-panel {
+  .card-title {
+    color: $darkBlue;
+    font-family: 'Roboto-Regular';
+    font-size: 1.2rem;
+  }
+
+  .radius {
+    border-radius: 0.8rem;
+    font-family: 'Roboto-Regular';
+  }
+  .upload {
+    margin-top: -50px;
+  }
+  .file-1,
+  .file-2 {
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.9rem;
+  }
+  .pdf-icon {
+    color: red;
+    font-size: 1.5rem;
+  }
+}

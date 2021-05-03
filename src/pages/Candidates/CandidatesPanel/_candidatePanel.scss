@@ -1,0 +1,66 @@
+#candidate-panel,
+#manager-panel {
+  .p-toolbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: $lightGray;
+
+    .p-toolbar-group-right {
+      padding-bottom: 6px;
+      .p-button {
+        @include setSquare(1.8rem);
+        .pi {
+          font-size: 0.98rem;
+        }
+      }
+    }
+  }
+  label {
+    cursor: pointer;
+  }
+  .p-panel-header {
+    border-top: 1px solid $lightBlue;
+    background-color: $lightGray;
+    padding-bottom: 0%;
+    padding-top: 0%;
+  }
+
+  .p-autocomplete {
+    width: 100%;
+    .p-autocomplete-multiple-container {
+      width: inherit;
+    }
+  }
+
+  #auto-span {
+    .p-autocomplete-multiple-container {
+      margin-top: 15px;
+      border: none;
+      background-color: $lightGray;
+
+      .p-autocomplete-token {
+        background-color: #6393a0;
+      }
+
+      .p-autocomplete-token-icon {
+        display: none;
+      }
+    }
+  }
+  .p-panel-title {
+    width: 100%;
+  }
+
+  #autocomplete-input {
+    display: none;
+  }
+
+  .p-grid {
+    .img-container {
+      img {
+        margin-top: 5px;
+        @include setSquare(120px);
+      }
+    }
+  }
+}

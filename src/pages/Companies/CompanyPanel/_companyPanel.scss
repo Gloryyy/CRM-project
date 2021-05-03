@@ -1,0 +1,87 @@
+.company-panel {
+  .p-panel-content {
+    border-top: 1px solid $lightBlueContrasted;
+    border-radius: 5px;
+    padding: 1px;
+    .company-panel-toolbar {
+      background-color: $lightBlueContrasted;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      border-top: 5px;
+      margin: 0%;
+      .p-field-name {
+        margin-bottom: 0%;
+        width: 28vh;
+        input {
+          width: 100%;
+        }
+      }
+      .p-field-local-tech {
+        background-color: white;
+      }
+      .toolbar-left-contents {
+        min-width: 170px;
+      }
+
+      .toolbar-center-contents {
+        margin-left: 6%;
+        .p-inputtext {
+          background-color: $lightBlueContrasted;
+        }
+      }
+
+      .p-button {
+        @include setSquare(1.8rem);
+        .pi {
+          font-size: 0.9rem;
+        }
+      }
+    }
+    .company-panel-body {
+      background-color: $lightGray;
+      padding-bottom: 10px;
+      margin: 0%;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+  }
+
+  .hiddenBorder {
+    border: none;
+    background-color: $lightBlueContrasted;
+  }
+  .showIcon{
+    color: black;
+  }
+  .shown {
+    text-decoration: none;
+    @include text-regular;
+    color: black;
+    cursor: pointer;
+  }
+  .hidden {
+    display: none;
+  }
+  .showInput {
+    background-color: $lightBlueContrasted;
+    border: 1px solid gray;
+  }
+  .hiddenInput {
+    display: none;
+  }
+
+  .p-grid {
+    .img-container {
+      margin-right: 2.3%;
+      img {
+        @include setSquare(120px);
+      }
+    }
+  }
+
+  .sliding-panel {
+    .p-panel-header {
+      display: none;
+    }
+  }
+}

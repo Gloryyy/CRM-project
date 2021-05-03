@@ -1,0 +1,27 @@
+/* Fonts */
+@mixin text-thin {
+  font-family: 'Roboto-Thin', sans-serif;
+}
+
+@mixin text-light {
+  font-family: 'Roboto-Light', sans-serif;
+}
+
+@mixin text-regular {
+  font-family: 'Roboto-Regular', sans-serif;
+}
+
+/* Resize image */
+@mixin setImgSize($width) {
+  max-width: $width;
+  height: auto;
+}
+
+@mixin setSquare($width) {
+  width: $width;
+  height: $width;
+}
+
+@mixin setInnerBorder($color) {
+  box-shadow: inset 0 0 0 1px $color;
+}

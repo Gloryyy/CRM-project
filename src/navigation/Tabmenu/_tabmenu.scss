@@ -1,0 +1,26 @@
+#topbar-tabmenu {
+  .p-tabmenu-nav {
+    justify-content: flex-end;
+    border: none;
+    .p-tabmenuitem {
+      margin: 0 0 0 10px;
+      border: solid 2px $darkBlue;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      .p-menuitem-link {
+        height: 40px;
+        border: none;
+        span {
+          font-size: 0.9rem;
+        }
+      }
+    }
+    .p-tabmenuitem.p-highlight {
+      .p-menuitem-link {
+        box-shadow: none;
+        background-color: $lightBlue;
+        color: $backgroundWhite;
+      }
+    }
+  }
+}

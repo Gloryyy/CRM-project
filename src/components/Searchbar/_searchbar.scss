@@ -1,0 +1,51 @@
+#searchbar {
+  align-self: center;
+  height: 40px;
+  width: 700px;
+  border: 2px solid $mediumGray;
+  margin: 0 1rem;
+  border-radius: 10px;
+
+  .p-autocomplete {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    .p-inputtext {
+      max-width: 628px;
+      overflow: auto;
+      scrollbar-width: thin;
+      border: none;
+
+      .p-autocomplete-token {
+        background: $lightBlue;
+        font-size: 0.85rem;
+      }
+      .p-autocomplete-token-or {
+        background-color: $lightGreen;
+        color: $darkGray;
+        @include setInnerBorder($lightBlue);
+        font-size: 0.75rem;
+      }
+      .p-autocomplete-token-freesearch {
+        font-size: 0.85rem;
+        color: $darkGray;
+        background-color: $lightGray;
+        @include setInnerBorder($lightBlue);
+      }
+      input {
+        margin-right: 80px;
+      }
+    }
+  }
+  .p-button {
+    align-self: center;
+    border: none;
+    margin: 5px;
+    @include setSquare(1.8rem);
+
+    span {
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+  }
+}

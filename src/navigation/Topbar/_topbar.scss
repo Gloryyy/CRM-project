@@ -1,0 +1,16 @@
+#topbar {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  border-bottom: 6px solid $darkBlue;
+  .logo {
+    width: 250px;
+    img {
+      width: 160px;
+      height: auto;
+    }
+  }
+  .top-bar-menus {
+    padding: 0 15px 0 0;
+  }
+}

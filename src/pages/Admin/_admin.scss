@@ -1,0 +1,41 @@
+#admin-page {
+  .p-tabview-panels {
+    padding: 0%;
+  }
+
+  .admin-button-group {
+    .p-button {
+      color: $darkBlue;
+      background-color: $backgroundWhite;
+      font-size: 0.9rem;
+      border-color: $mediumGray;
+    }
+    .btn-schagworte{
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      z-index: 1; 
+    }
+    .btn-users {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      z-index: 1;
+    }
+    .btn-ad-tag{
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-left: none;
+    }
+    .btn-add-user {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-left: none;
+    }
+
+    .p-menuitem-link {
+      span {
+        color: $darkBlue;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

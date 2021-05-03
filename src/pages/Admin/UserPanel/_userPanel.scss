@@ -1,0 +1,75 @@
+#user-panel {
+  flex-wrap: nowrap;
+  width: 100%;
+  input.p-disabled {
+    border: none;
+    color: black;
+  }
+
+  .userpanel-toolbar {
+    flex-wrap: nowrap;
+    margin: 0%;
+    background-color: $lightGray;
+    padding: 0px 10px;
+    width: inherit;
+
+    .p-field {
+      margin: 0%;
+    }
+
+    .toolbar-left-contents {
+      min-width: 170px;
+    }
+
+    .toolbar-center-contents {
+      margin-left: 30px;
+      .p-autocomplete {
+        //  width: 100%;
+
+        .p-inputtext {
+          //  scrollbar-width: thin;
+        }
+
+        .p-autocomplete-multiple-container {
+          // display: ;
+          //  width: inherit;
+          //   flex-wrap: wrap;
+          max-width: 1200px;
+          overflow-x: scroll;
+          scrollbar-width: thin;
+        }
+      }
+    }
+
+    .toolbar-right-contents {
+      width: 120px;
+    }
+
+    .p-button {
+      @include setSquare(1.8rem);
+      .pi {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .p-panel-content {
+    margin-top: 10px;
+    padding-bottom: 0;
+    border-bottom: 1px solid $lightBlue;
+
+    label {
+      margin: 0;
+    }
+
+    .p-grid {
+      width: 100%;
+      .img-container {
+        img {
+          margin-top: 5px;
+          @include setSquare(100px);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import './variables';
+@import './mixins';
+
+// Components
+@import '../App/app';
+@import '../components/Spinner/spinner';
+@import '../components/Searchbar/searchbar';
+@import '../components/AutoCompleteInput/autoCompleteInput';
+@import '../components/AddDataPanel/addDataPanel';
+@import '../components/TextEditor/textEditor';
+@import '../pages/Admin/UserPanel/userPanel';
+@import '../pages/Companies/CompanyPanel/companyPanel';
+@import '../pages/Candidates/CandidatesPanel/candidatePanel';
+// Navigation
+@import '../navigation/Topbar/topbar';
+@import '../navigation/Menubar/menubar';
+@import '../navigation/Tabmenu/tabmenu';
+@import '../navigation/Toolbar/toolbar';
+// Pages
+@import '../pages/Login/login';
+@import '../pages/Companies/companies';
+@import '../pages/Candidates/candidates';
+@import '../pages/Admin/admin';
+@import '../pages/Map/map';
+@import '../pages/Report/report';

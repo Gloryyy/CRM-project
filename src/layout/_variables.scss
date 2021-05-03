@@ -1,0 +1,38 @@
+/* General Colors */
+$darkBlue: #216778;
+$lightBlue: #2c89a0;
+$lightBlueContrasted: #d6eaf0; //#bfdde6;
+$lightGreen: #a4e6a8;
+$lightGray: #e5e5e5;
+$mediumGray: #829ba8;
+$darkGray: #5a5a5a;
+$backgroundWhite: #ffffff;
+
+/* Text colors */
+$textgray: #6c757d;
+
+// Fonts
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('./fonts/Roboto-Thin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('./fonts/Roboto-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+/* List of used predefined screen sizes */
+// How to use => @media only screen and (max-width: setScreenSize(small))
+$breakpoints: (
+  small: 576px,
+  medium: 768px,
+  large: 992px,
+  huge: 1200px
+);
+@function setScreenSize($breakpoint) {
+  @return map-get($breakpoints, $breakpoint);
+}
